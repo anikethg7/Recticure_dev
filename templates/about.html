@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recti Cure</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="../static/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../static/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../static/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+            <a href="{{url_for('accessthesite')}}" class="navbar-brand">
+              <h1 class="m-0 text-uppercase text-primary">
+                Recti Cure – Detecting Cataract Disorder
+              </h1>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                <a href="{{url_for('accessthesite')}}" class="nav-item nav-link ">Home</a>
+                <a href="/about" class="nav-item nav-link active">About</a>
+                <a href="/test" class="nav-item nav-link">Test</a>
+                <a href="/contact" class="nav-item nav-link">Contact</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- Navbar End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+          <div class="row gx-5">
+            <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px">
+              <div class="position-relative h-100">
+                <img
+                  class="position-absolute w-100 h-100 rounded"
+                  src="https://nobelmedicalgroup.com/wp-content/uploads/2022/09/dr-livia-teo-cataract-surgery-scaled.jpg"
+                  style="object-fit: fill"
+                />
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="mb-4">
+                <h5
+                  class="d-inline-block text-primary text-uppercase border-bottom border-5"
+                >
+                  About Cataracts
+                </h5>
+                <h1 class="display-4">What is a Cataract?</h1>
+              </div>
+              <p>
+                A cataract is a clouding of the lens of the eye, which is
+                typically clear. For people who have cataracts, seeing through
+                cloudy lenses is like looking through a frosty or fogged-up
+                window. Clouded vision caused by cataracts can make it more
+                difficult to read, drive a car at night or see the expression on a
+                friend's face.
+              </p>
+              <div class="mb-4">
+                <h5
+                  class="d-inline-block text-primary text-uppercase border-bottom border-5"
+                ></h5>
+                <h1 class="display-4">Symptoms</h1>
+              </div>
+              <p>Clouded, blurred or dim vision.</p>
+              <p>Trouble seeing at night.</p>
+              <p>Sensitivity to light and glare.</p>
+              <p>Need for brighter light for reading and other activities.</p>
+              <p>Seeing "halos" around lights.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+  
+      <!-- Testimonial Start -->
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="text-center mx-auto mb-5" style="max-width: 500px">
+            <h5
+              class="d-inline-block text-primary text-uppercase border-bottom border-5"
+            >
+              What are some precautions?
+            </h5>
+            <h1 class="display-4"></h1>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item text-center">
+                  <div class="position-relative mb-5">
+                    <img
+                      class="img-fluid rounded-circle mx-auto"
+                      src="https://glaucoma.org/wp-content/uploads/2024/01/amazing-eye-close-up_900-585x540.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="fs-4 fw-normal">
+                    Regular eye exams. Eye exams can help detect cataracts and
+                    other eye problems at their earliest stages.
+                  </p>
+                  <hr class="w-25 mx-auto" />
+                </div>
+  
+                <div class="testimonial-item text-center">
+                  <div class="position-relative mb-5">
+                    <img
+                      class="img-fluid rounded-circle mx-auto"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdPLCgBjKHhT0WDMyijLh3Ye_mDRAf0H8hk7T1znQgnA&s"
+                      alt=""
+                    />
+                  </div>
+                  <p class="fs-4 fw-normal">
+                    Do not smoke. Manage other health problems. Choose a healthy
+                    diet that includes plenty of fruits and vegetables.
+                  </p>
+                  <hr class="w-25 mx-auto" />
+                </div>
+  
+                <div class="testimonial-item text-center">
+                  <div class="position-relative mb-5">
+                    <img
+                      class="img-fluid rounded-circle mx-auto"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoJ50PrT9wE8EE3PcUxasUURwBVpfvx2dAB76L0CiEzw&s"
+                      alt=""
+                    />
+                  </div>
+                  <p class="fs-4 fw-normal">
+                    Protect your eyes from the sun. Wear sunglasses and a hat with
+                    a brim to block the sun. Make eye-healthy choices like reduced
+                    screen time etc.
+                  </p>
+                  <hr class="w-25 mx-auto" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial End -->
+  
+      <!-- Footer Start -->
+      <div class="container-fluid bg-dark text-light mt-5 py-5">
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+              <h4
+                class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
+              >
+                Get In Touch
+              </h4>
+              <p class="mb-4"></p>
+              <p class="mb-2">
+                <i class="fa fa-map-marker-alt text-primary me-3"></i>B V Raju
+                Institute of Technology
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-envelope text-primary me-3"></i
+                >22211a0502@bvrit.ac.in
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-envelope text-primary me-3"></i
+                >22211a0517@bvrit.ac.in
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-envelope text-primary me-3"></i
+                >22211a0552@bvrit.ac.in
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-envelope text-primary me-3"></i
+                >22211a0510@bvrit.ac.in
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4
+                class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
+              >
+                Quick Links
+              </h4>
+              <div class="d-flex flex-column justify-content-start">
+                <a class="text-light mb-2" href="#"
+                  ><i class="fa fa-angle-right me-2"></i>Home</a
+                >
+                <a class="text-light mb-2" href="#"
+                  ><i class="fa fa-angle-right me-2"></i>About Us</a
+                >
+                <a class="text-light mb-2" href="#"
+                  ><i class="fa fa-angle-right me-2"></i>Test</a
+                >
+                <a class="text-light" href="#"
+                  ><i class="fa fa-angle-right me-2"></i>Contact Us</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4
+                class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
+              >
+                Popular Links
+              </h4>
+              <div class="d-flex flex-column justify-content-start">
+                <a class="text-light mb-2" href="#"
+                  ><i class="fa fa-angle-right me-2"></i>Home</a
+                >
+                <a class="text-light mb-2" href="#"
+                  ><i class="fa fa-angle-right me-2"></i>About Us</a
+                >
+                <a class="text-light mb-2" href="#"
+                  ><i class="fa fa-angle-right me-2"></i>Test</a
+                >
+                <a class="text-light" href="#"
+                  ><i class="fa fa-angle-right me-2"></i>Contact Us</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4
+                class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4"
+              >
+                Newsletter
+              </h4>
+              <form action="">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control p-3 border-0"
+                    placeholder="Your Email Address"
+                  />
+                  <button class="btn btn-primary">Sign Up</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <!-- Footer End -->
+  
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/lib/easing/easing.min.js"></script>
+    <script src="static/lib/waypoints/waypoints.min.js"></script>
+    <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="static/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="static/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="static/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="static/main.js"></script>
+</body>
+
+</html>
